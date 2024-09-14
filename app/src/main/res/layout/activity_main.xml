@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btndownload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Download"
+        tools:layout_editor_absoluteX="121dp"
+        android:layout_margin="20dp"
+        android:layout_gravity="center"
+        tools:layout_editor_absoluteY="59dp" />
+
+    <Button
+        android:id="@+id/btnupload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Upload"
+        tools:layout_editor_absoluteX="260dp"
+        tools:layout_editor_absoluteY="59dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@color/black">
+    <TextView
+        android:id="@+id/textView"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:text="👋 Hi there! I'm Venkatesh, a third-year B.Tech student at Parul University who enjoys coding and technology.
+Right now, I'm diving deep into Data Structures and Algorithms (DSA) using Java. I've taken on the #100DaysOfDSA challenge, which has been a fantastic way to push myself and strengthen my problem-solving skills.
+I'm all about learning new things and staying curious, especially when it comes to the latest tech trends. I'm excited to connect with others who share the same passion and to see how I can contribute to some exciting, innovative projects."
+        android:textSize="15dp" />
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btnclickme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="100dp"
+        android:text="click me " />
+
+
+</LinearLayout>
